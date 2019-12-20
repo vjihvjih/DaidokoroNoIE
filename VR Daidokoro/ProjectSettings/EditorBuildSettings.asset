@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Vr kitcheN.unity
+    path: Assets/Scenes/Vr kitcheN.unity
     guid: 509ed8dfb90504c43894cc04aa172ea8
   m_configObjects: {}

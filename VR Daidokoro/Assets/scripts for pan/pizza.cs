@@ -6,7 +6,7 @@ using UnityEngine;
 public class pizza : MonoBehaviour
 {
     public int a = 0;
-    public Color mion = new Color(0.6981f, 0.6168f, 0.2601f);
+    public Color mion = new Color(0.5660378f, 0.4771249f, 0.2055892f);
     public Color shii = new Color(0.6320754f, 0.4381341f, 0.2474635f);
 
 
@@ -51,12 +51,12 @@ public class pizza : MonoBehaviour
             a = 5;
             DestroyObject(collision.collider);
         }
-        if (a == 5 && collision.collider.name == "cucucut ")
+        if (a == 5 && collision.collider.name == "cucucut")
         {
             a = 6;
             DestroyObject(collision.collider);
         }
-        if (a == 6 && collision.collider.name == "onioncut ")
+        if (a == 6 && collision.collider.name == "onioncut "  && collision.collider.GetComponent<MeshRenderer>().material.color == shii)
         {
             a = 7;
             DestroyObject(collision.collider);
@@ -65,7 +65,7 @@ public class pizza : MonoBehaviour
         {
             a = 8;
             DestroyObject(collision.collider);
-            gameObject.transform.localPosition = new Vector3(36.78f, 7.09f, 45.74f);
+            gameObject.transform.localPosition = new Vector3(5.5f, -1.99f, 13.26f);
         }
     }
 }
