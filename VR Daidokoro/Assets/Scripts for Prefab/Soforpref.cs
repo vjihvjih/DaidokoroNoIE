@@ -24,8 +24,9 @@ public class Soforpref : MonoBehaviour
         if (collision.collider.name == "Knife2")
         {
             Destroy(gameObject);
-            Instantiate(myPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
+            Instantiate(myPrefab, new Vector3(22.513f, 5.97f, 26.723f), Quaternion.identity);
         }
+        
     }
 
     
