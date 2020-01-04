@@ -692,7 +692,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 876695971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 725c636d08dd1d5408e1bab9c805ad55, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fa61b7bce7e70645be77d30c2bb13c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &947569003
@@ -934,7 +934,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 876695973}
-        m_MethodName: ChangeScenes
+        m_MethodName: Change
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
