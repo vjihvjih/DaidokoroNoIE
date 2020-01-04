@@ -6,6 +6,7 @@ public class cucucutprefab : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject myPrefab;
+    int a;
     void Start()
     {
 
@@ -24,7 +25,10 @@ public class cucucutprefab : MonoBehaviour
         if (collision.collider.name == "Knife2")
         {
             Destroy(gameObject);
-            Instantiate(myPrefab, collision.transform.position, Quaternion.identity);
+            for (a = 0; a < 5; ++a)
+            {
+                Instantiate(myPrefab, collision.collider.transform.position, Quaternion.identity);
+            }
         }
 
     }
